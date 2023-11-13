@@ -6,9 +6,9 @@ def main():
       print( "Ooops an error occured", ourException )
   else:
       print( userName )
-
+# Entering the username.
   playAgain = True
-
+# Asking the user if they want to play again.
   while playAgain == True:
     myFavoriteCrops = ["apple", "corn", "cherry"]
     print(myFavoriteCrops)
