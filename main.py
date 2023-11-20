@@ -1,4 +1,5 @@
 def main():
+  #Starts the app
   try:
       userName = input("Chimelumo ")
       userName = userName
