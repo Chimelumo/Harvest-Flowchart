@@ -1,5 +1,5 @@
+# This function starts the app. Tells the user to try using the username to get in.
 def main():
-  #Starts the app
   try:
       userName = input("Chimelumo ")
       userName = userName
@@ -9,7 +9,7 @@ def main():
       print( userName )
 # Entering the username.
   playAgain = True
-# Asking the user if they want to play again.
+# Asking the user if they want to play again. And displays true or false.
   while playAgain == True:
     myFavoriteCrops = ["apple", "corn", "cherry"]
     print(myFavoriteCrops)
